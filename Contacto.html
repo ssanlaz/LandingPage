@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/terapia-fisica.png" type="image/x-icon">
+    <!--<a href="https://www.flaticon.es/iconos-gratis/fisioterapia" title="fisioterapia iconos">Fisioterapia iconos creados por Freepik - Flaticon</a>-->
+    <link rel="stylesheet" href="LandingPage.css">
+    <title>Contacto</title>
+</head>
+<body  class="cuerpo5">
+        <form method="post" name="Contacto"  action="mailto:sandra.sanchez.laz@gmail.com">
+           <fieldset>
+               <legend><h3>FORMULARIO DE CONTACTO</h3></legend>
+           </fieldset>
+           <br>
+           <fieldset>
+               <legend><h5>DATOS PERSONALES</h5></legend>
+               <br>
+               NOMBRE: <input type="text" name="nombre" id="nombre" required>
+               <br>
+               APELLIDOS: <input type="text" name="Apellidos" id="Apellidos" required>
+               <br>
+               <br>
+               SELECCIONAR GENERO:
+               <input type="radio" name="sexo" value="Hombre">HOMBRE
+               <input type="radio" name="sexo" value="Mujer">MUJER
+               <br>
+               <br>
+               FECHA DE NACIMIENTO:  <input type="date" name="date">
+               <br>
+               DNI: <input type="text" name="DNI" id="DNI" maxlength="9">
+               <br>
+               E-MAIL: <input type="email" name="email" id="email" required>
+               <br>
+               TELEFONO: <input type="tel" name="telefono" id="telefono" required>
+               <br>
+        </fieldset>
+        <br>
+        <fieldset>
+               <legend><h5>DIRECCION</h5></legend>
+               <br>
+               CALLE: <input type="text" name="Calle" id="Calle">
+               <br>
+               NUMERO: <input type="text" name="Numero" id="Numero">
+               <br>
+               PISO: <input type="text" name="Piso" id="Piso">
+               <br>
+               CODIGO POSTAL: <input type="text" name="CodigoPostal" id="CodigoPostal">
+               <br>
+               CIUDAD: <input type="text" name="Ciudad" id="Ciudad" required>
+               <br>
+               PAIS: <input type="text" name="pais" id="pais" required>
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+               <legend><h5>SERVICIO</h5></legend>
+               <br>
+               SELECCIONAR SERVICIO:
+                  <select>
+                       <option value="1">PILATES</option><option value="1">PILATES</option>
+                       <option value="2">TECNICAS INVASIVAS</option>
+                       <option value="3">DRENAJE LINFATICO</option>
+                       <option value="4">FISIOTERAPIA DERMATOFUNCIONAL</option>
+                       <option value="5">SUELO PELVICO</option>
+                  </select>
+                <br>
+                <br>SELECCIONAR FECHA SESION :
+                <input type="date" name="fecha">
+                <br>
+                <br>SELECCIONAR HORA SESION :
+                <input type="time" id="hora">
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+           <legend><h5>COMENTARIO</h5></legend>
+                <br>
+                <textarea name="cometario" id="comentario" cols="40" rows="20" maxlength="200" placeholder="Puedes dejar escrito un comentario y enviarlo...se le respondra en la mayor brevedad posible"></textarea>
+                <br>
+                <input type="submit" value="Enviar" id="env">
+        </fieldset>
+           
+        </form>
+    
+</body>
+</html>
